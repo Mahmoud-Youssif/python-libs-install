@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
     - name: install local python lib "pandivcese"
-      shell: /bin/python pandevice-0.14.0/setup.py install
+      shell: pip install pandevice-0.14.0.tar.gz
